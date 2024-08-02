@@ -1,314 +1,378 @@
 export default [
   {
-    "id": "loto-sagrado",
-    "name": "Loto Sagrado",
-    "shortDescription": "Flor acuática grande y hermosa.",
-    "description": "El loto sagrado es una flor acuática grande, conocida por su belleza y simbolismo. Sus grandes pétalos rosados o blancos flotan majestuosamente sobre el agua, creando un espectáculo visual impresionante. Esta planta perenne es valorada en jardines acuáticos y tiene un profundo significado cultural en varias culturas asiáticas, simbolizando la pureza y la iluminación. Además de su uso ornamental, el loto sagrado también se utiliza en la medicina tradicional y como fuente de alimento, especialmente en países asiáticos como India y China.",
-    "imageUrl": "https://example.com/loto-sagrado.jpg",
+    "id": "ada-lovelace",
+    "name": "Ada Lovelace",
+    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
+    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
     "facts": {
-        "nombreCientifico": "Nelumbo nucifera",
-        "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Asia"
+      "yearOfBirth": "1815",
+      "yearOfDeath": "1852",
+      "birthPlace": "Londres, Reino Unido",
+      "mainField": "Ciencia de la Computación"
     },
-
+    "extraInfo": {
+      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+    }
   },
   {
-    "id": "nenufar-gigante",
-    "name": "Nenúfar Gigante",
-    "shortDescription": "Flor acuática con hojas enormes.",
-    "description": "El nenúfar gigante es una impresionante flor acuática, conocida por sus enormes hojas flotantes que pueden soportar el peso de un niño pequeño. Sus grandes flores, que pueden ser blancas, rosadas o rojas, emergen sobre el agua durante la noche y son nativas de la cuenca del Amazonas. Este nenúfar no solo es una maravilla botánica, sino también una atracción en jardines botánicos y acuáticos debido a su tamaño y belleza excepcionales. Es una planta perenne que requiere condiciones específicas para prosperar, como aguas tranquilas y cálidas.",
-    "imageUrl": "https://example.com/nenufar-gigante.jpg",
+    "id": "emmy-noether",
+    "name": "Emmy Noether",
+    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
+    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
     "facts": {
-        "nombreCientifico": "Victoria amazonica",
-        "cientificoDescubridor": "John Lindley",
-        "continenteDeOrigen": "Sudamérica"
+      "yearOfBirth": "1882",
+      "yearOfDeath": "1935",
+      "birthPlace": "Erlangen, Alemania",
+      "mainField": "Matemáticas"
     },
-
+    "extraInfo": {
+      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+    }
   },
   {
-    "id": "lirio-de-agua",
-    "name": "Lirio de Agua",
-    "shortDescription": "Flor acuática con pétalos coloridos.",
-    "description": "El lirio de agua es una flor acuática grande, conocida por sus hermosos y coloridos pétalos que pueden ser blancos, rosados, azules o amarillos. Estas flores flotan en la superficie de estanques y lagos, aportando belleza y serenidad al entorno acuático. Son populares en jardinería acuática y se encuentran en diversas regiones del mundo. Los lirios de agua no solo embellecen los cuerpos de agua, sino que también proporcionan refugio y sombra a la vida acuática, contribuyendo al equilibrio del ecosistema.",
-    "imageUrl": "https://example.com/lirio-de-agua.jpg",
+    "id": "hypatia-de-alejandria",
+    "name": "Hypatia de Alejandría",
+    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
+    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
     "facts": {
-        "nombreCientifico": "Nymphaea",
-        "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Diversos continentes"
+      "yearOfBirth": "circa 360",
+      "yearOfDeath": "415",
+      "birthPlace": "Alejandría, Egipto",
+      "mainField": "Matemáticas, Filosofía"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+    }
   },
   {
-    "id": "elodea",
-    "name": "Elodea",
-    "shortDescription": "Pequeña flor acuática.",
-    "description": "La elodea es una pequeña planta acuática conocida por su capacidad para oxigenar el agua, siendo muy útil en acuarios y estanques. Sus pequeñas flores blancas flotan en la superficie del agua, mientras que sus hojas verdes y delgadas crecen bajo el agua. Originaria de América del Norte, esta planta se ha naturalizado en muchas partes del mundo debido a su adaptabilidad y su capacidad para mejorar la calidad del agua. La elodea es una planta perenne y puede propagarse fácilmente, haciendo que sea una opción popular para acuarios domésticos.",
-    "imageUrl": "https://example.com/elodea.jpg",
+    "id": "marjorie-lee-browne",
+    "name": "Marjorie Lee Browne",
+    "shortDescription": "Matemática, contribuyó a la teoría de números.",
+    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
     "facts": {
-        "nombreCientifico": "Elodea canadensis",
-        "cientificoDescubridor": "André Michaux",
-        "continenteDeOrigen": "América del Norte"
+      "yearOfBirth": "1914",
+      "yearOfDeath": "1979",
+      "birthPlace": "Memphis, Estados Unidos",
+      "mainField": "Matemáticas"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+    }
   },
   {
-    "id": "sagittaria",
-    "name": "Sagittaria",
-    "shortDescription": "Pequeña flor acuática.",
-    "description": "La sagittaria es una pequeña flor acuática conocida por sus hojas en forma de flecha y sus delicadas flores blancas. Crece en riberas y zonas pantanosas, siendo muy adaptable a diferentes condiciones de agua. Común en América del Norte, esta planta perenne es valorada no solo por su belleza, sino también por su capacidad para mejorar la calidad del agua y proporcionar hábitat para la fauna acuática. La sagittaria es una excelente opción para estanques y jardines acuáticos, ya que añade un toque natural y decorativo.",
-    "imageUrl": "https://example.com/sagittaria.jpg",
+    "id": "shakuntala-devi",
+    "name": "Shakuntala Devi",
+    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
+    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
     "facts": {
-        "nombreCientifico": "Sagittaria latifolia",
-        "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "América del Norte"
+      "yearOfBirth": "1929",
+      "yearOfDeath": "2013",
+      "birthPlace": "Bangalore, India",
+      "mainField": "Matemáticas"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    }
   },
   {
-    "id": "cabomba",
-    "name": "Cabomba",
-    "shortDescription": "Pequeña flor acuática.",
-    "description": "La cabomba es una pequeña flor acuática apreciada por sus hojas finamente divididas que crean un hermoso efecto visual bajo el agua. Sus pequeñas flores blancas o rosadas emergen sobre la superficie del agua, agregando un toque de delicadeza. Es popular en acuarios debido a su apariencia decorativa y su capacidad para proporcionar refugio a los peces. Originaria de América del Norte, la cabomba es una planta perenne que requiere agua limpia y bien iluminada para prosperar, haciendo de ella una elección ideal para ambientes acuáticos controlados.",
-    "imageUrl": "https://example.com/cabomba.jpg",
+    "id": "sofia-kovalevskaya",
+    "name": "Sofia Kovalevskaya",
+    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
+    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
     "facts": {
-        "nombreCientifico": "Cabomba caroliniana",
-        "cientificoDescubridor": "André Michaux",
-        "continenteDeOrigen": "América del Norte"
+      "yearOfBirth": "1850",
+      "yearOfDeath": "1891",
+      "birthPlace": "Moscú, Rusia",
+      "mainField": "Matemáticas"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    }
   },
   {
-    "id": "iris-de-agua",
-    "name": "Iris de Agua",
-    "shortDescription": "Flor acuática mediana.",
-    "description": "El iris de agua es una flor acuática mediana que destaca por sus pétalos violetas o amarillos y sus hojas alargadas y verdes. Crece en las orillas de ríos y estanques, añadiendo un toque de color y elegancia al paisaje acuático. Esta planta perenne es resistente y puede adaptarse a diferentes condiciones acuáticas. Originaria de Europa y Asia, el iris de agua es una elección popular para jardines acuáticos debido a su belleza y su capacidad para prosperar en ambientes húmedos y soleados.",
-    "imageUrl": "https://example.com/iris-de-agua.jpg",
+    "id": "yoko-shimomura",
+    "name": "Yoko Shimomura",
+    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
+    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
     "facts": {
-        "nombreCientifico": "Iris pseudacorus",
-        "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Europa y Asia"
+      "yearOfBirth": "1967",
+      "birthPlace": "Hyogo, Japón",
+      "mainField": "Composición Musical, Video Juegos"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+    }
   },
   {
-    "id": "jacinto-de-agua",
-    "name": "Jacinto de Agua",
-    "shortDescription": "Flor acuática mediana.",
-    "description": "El jacinto de agua es una flor acuática mediana que flota en la superficie del agua, conocida por sus llamativos pétalos morados y sus hojas verdes brillantes. Originaria de América del Sur, esta planta puede convertirse en invasora debido a su rápido crecimiento, pero es valorada por su belleza en estanques controlados. El jacinto de agua no solo embellece los cuerpos de agua, sino que también ayuda a mejorar la calidad del agua al absorber nutrientes y contaminantes, haciendo de él una planta útil y ornamental.",
-    "imageUrl": "https://example.com/jacinto-de-agua.jpg",
+    "id": "maryam-mirzakhani",
+    "name": "Maryam Mirzakhani",
+    "shortDescription": "Matemática, ganadora del Premio Fields.",
+    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
     "facts": {
-        "nombreCientifico": "Eichhornia crassipes",
-        "cientificoDescubridor": "Carl Friedrich Philipp von Martius",
-        "continenteDeOrigen": "Sudamérica"
+      "yearOfBirth": "1977",
+      "yearOfDeath": "2017",
+      "birthPlace": "Teherán, Irán",
+      "mainField": "Matemáticas"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+    }
   },
   {
-    "id": "iris-barbado",
-    "name": "Iris Barbado",
-    "shortDescription": "Flor terrestre grande con pétalos vibrantes.",
-    "description": "El Iris barbado es una flor terrestre grande, conocida por sus pétalos vibrantes y llamativos. Originaria de regiones templadas, esta planta perenne destaca en jardines por su belleza y variedad de colores, que incluyen azul, púrpura, blanco y amarillo. Sus flores tienen una forma distintiva con pétalos ondulados y son muy apreciadas en arreglos florales y como planta ornamental. Además de su atractivo visual, el Iris barbado es resistente y fácil de cultivar en una amplia gama de condiciones de suelo y clima.",
-    "imageUrl": "https://example.com/iris-barbado.jpg",
+    "id": "adele-goldberg",
+    "name": "Adele Goldberg",
+    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
+    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
     "facts": {
-        "nombreCientifico": "Iris germanica",
-        "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Europa y Asia"
+      "yearOfBirth": "1945",
+      "birthPlace": "Chicago, Estados Unidos",
+      "mainField": "Ciencias de la Computación"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+    }
   },
   {
-    "id": "canna-lily",
-    "name": "Canna Lily",
-    "shortDescription": "Flor terrestre grande con colores brillantes.",
-    "description": "La Canna Lily es una flor terrestre grande, famosa por sus colores brillantes y llamativos, como rojo, naranja y amarillo. Esta planta tropical es conocida por sus grandes hojas y flores espectaculares que pueden alcanzar hasta 2 metros de altura. Ideal para jardines de verano, la Canna Lily es apreciada por su capacidad para atraer polinizadores como mariposas y colibríes. Es resistente al calor y se adapta bien a climas cálidos, haciendo de ella una opción popular para agregar un toque vibrante a los paisajes.",
-    "imageUrl": "https://example.com/canna-lily.jpg",
+    "id": "barbara-liskov",
+    "name": "Barbara Liskov",
+    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
+    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
     "facts": {
-        "nombreCientifico": "Canna indica",
-        "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "América Central y del Sur"
+      "yearOfBirth": "1939",
+      "birthPlace": "Los Angeles, Estados Unidos",
+      "mainField": "Ciencia de la Computación"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+    }
   },
   {
-    "id": "alstroemeria",
-    "name": "Alstroemeria",
-    "shortDescription": "Flor terrestre grande con pétalos exóticos.",
-    "description": "La Alstroemeria, también conocida como lirio peruano, es una flor terrestre grande con pétalos exóticos y coloridos que varían en tonos de rosa, rojo, naranja y amarillo. Originaria de América del Sur, esta planta perenne es apreciada por su durabilidad y su capacidad para florecer durante mucho tiempo. Sus flores en forma de trompeta y su follaje verde hacen que sea una opción popular para jardines y arreglos florales. Además, la Alstroemeria es relativamente fácil de cuidar y puede prosperar en una variedad de condiciones de suelo.",
-    "imageUrl": "https://example.com/alstroemeria.jpg",
+    "id": "grace-hopper",
+    "name": "Grace Hopper",
+    "shortDescription": "Científica de la computación, creadora del primer compilador.",
+    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
     "facts": {
-        "nombreCientifico": "Alstroemeria aurea",
-        "cientificoDescubridor": "Carlos Linnaeus",
-        "continenteDeOrigen": "América del Sur"
+      "yearOfBirth": "1906",
+      "yearOfDeath": "1992",
+      "birthPlace": "Nueva York, Estados Unidos",
+      "mainField": "Ciencia de la Computación"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+    }
   },
   {
-    "id": "dalia",
-    "name": "Dalia",
-    "shortDescription": "Flor terrestre grande con flores exuberantes.",
-    "description": "La Dalia es una flor terrestre grande conocida por sus exuberantes flores en una variedad de colores vibrantes, que incluyen rojo, rosa, blanco, amarillo y naranja. Originaria de México, la Dalia es una planta perenne que puede crecer hasta 1.5 metros de altura y produce flores grandes y llamativas que son ideales para arreglos florales y jardines ornamentales. Sus tallos fuertes y su capacidad para florecer durante todo el verano hacen que sea una opción popular para agregar color y textura a los paisajes.",
-    "imageUrl": "https://example.com/dalia.jpg",
+    "id": "margaret-hamilton",
+    "name": "Margaret Hamilton",
+    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
+    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
     "facts": {
-        "nombreCientifico": "Dahlia pinnata",
-        "cientificoDescubridor": "Andrés Dahl",
-        "continenteDeOrigen": "América del Norte"
+      "yearOfBirth": "1936",
+      "birthPlace": "Paoli, Indiana, Estados Unidos",
+      "mainField": "Ciencia de la Computación"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+    }
   },
   {
-    "id": "violetas-africanas",
-    "name": "Violetas Africanas",
-    "shortDescription": "Flor terrestre pequeña con hojas en forma de corazón.",
-    "description": "Las Violetas Africanas son flores terrestres pequeñas, apreciadas por sus delicadas flores que pueden ser violetas, rosas o blancas, y por sus hojas en forma de corazón. Originarias de África Oriental, estas plantas son ideales para interiores y jardines de sombra, ya que prosperan en condiciones de luz indirecta. Son conocidas por su capacidad para florecer durante todo el año en condiciones adecuadas. Su bajo mantenimiento y su atractivo estético las convierten en una opción popular para agregar color y belleza a espacios reducidos.",
-    "imageUrl": "https://example.com/violetas-africanas.jpg",
+    "id": "radia-perlman",
+    "name": "Radia Perlman",
+    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
+    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
     "facts": {
-        "nombreCientifico": "Saintpaulia ionantha",
-        "cientificoDescubridor": "Baron Walter von Saint Paul",
-        "continenteDeOrigen": "África"
+      "yearOfBirth": "1951",
+      "birthPlace": "Portsmouth, Estados Unidos",
+      "mainField": "Ciencia de la Computación"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+    }
   },
   {
-    "id": "nemesia",
-    "name": "Nemesia",
-    "shortDescription": "Flor terrestre pequeña con flores en racimo.",
-    "description": "La Nemesia es una flor terrestre pequeña que produce racimos de flores coloridas, que pueden ser moradas, rosas, rojas o blancas. Originaria de Sudáfrica, esta planta anual es popular en jardines y macetas debido a su capacidad para florecer profusamente durante la primavera y el verano. Sus flores tienen una forma distintiva y su fragancia dulce atrae a polinizadores. La Nemesia es fácil de cultivar en suelos bien drenados y soleados, haciendo de ella una opción excelente para agregar un toque vibrante a los espacios exteriores.",
-    "imageUrl": "https://example.com/nemesia.jpg",
+    "id": "shafi-goldwasser",
+    "name": "Shafi Goldwasser",
+    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
+    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
     "facts": {
-        "nombreCientifico": "Nemesia strumosa",
-        "cientificoDescubridor": "William Burchell",
-        "continenteDeOrigen": "África"
+      "yearOfBirth": "1958",
+      "birthPlace": "Nueva York, Estados Unidos",
+      "mainField": "Ciencia de la Computación"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+    }
   },
   {
-    "id": "lobelia",
-    "name": "Lobelia",
-    "shortDescription": "Flor terrestre pequeña con flores en racimo.",
-    "description": "La Lobelia es una flor terrestre pequeña que destaca por sus vibrantes flores en tonos de azul, púrpura y blanco, que crecen en racimos densos. Esta planta perenne es originaria de regiones templadas y es ideal para jardines colgantes y bordes de macetas debido a su hábito de crecimiento en cascada. La Lobelia florece abundantemente durante el verano y es apreciada por su capacidad para atraer polinizadores. Es una planta fácil de cuidar que prospera en suelos bien drenados y soleados o parcialmente sombreados.",
-    "imageUrl": "https://example.com/lobelia.jpg",
+    "id": "chien-shiung-wu",
+    "name": "Chien-Shiung Wu",
+    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
+    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
     "facts": {
-        "nombreCientifico": "Lobelia erinus",
-        "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "África y Europa"
+      "yearOfBirth": "1912",
+      "yearOfDeath": "1997",
+      "birthPlace": "Liuhe, Taicang, China",
+      "mainField": "Física"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+    }
   },
   {
-    "id": "heliotropo",
-    "name": "Heliotropo",
-    "shortDescription": "Flor terrestre mediana con fragancia dulce.",
-    "description": "El Heliotropo es una flor terrestre mediana conocida por sus flores fragantes que varían en colores como azul, morado, rosa y blanco. Originaria de América del Sur, esta planta es valorada en jardinería por su aroma dulce y su capacidad para atraer mariposas y abejas. Las flores se agrupan en racimos y florecen durante la primavera y el verano, haciendo del Heliotropo una excelente opción para macetas, bordes de jardín y arreglos florales. Es una planta perenne que prefiere suelos bien drenados y condiciones de sol parcial a pleno.",
-    "imageUrl": "https://example.com/heliotropo.jpg",
+    "id": "hedy-lamarr",
+    "name": "Hedy Lamarr",
+    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
+    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
     "facts": {
-        "nombreCientifico": "Heliotropium arborescens",
-        "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "América del Sur"
+      "yearOfBirth": "1914",
+      "yearOfDeath": "2000",
+      "birthPlace": "Viena, Austria",
+      "mainField": "Actuación, Física"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.sparkfun.com/news/6147"
+    }
   },
   {
-    "id": "orquidea-cattleya",
-    "name": "Orquídea Cattleya",
-    "shortDescription": "Flor epífita grande con flores exuberantes.",
-    "description": "La Orquídea Cattleya es una flor epífita grande famosa por sus exuberantes flores y su aroma delicado. Originaria de América Central y del Sur, esta orquídea destaca por sus flores grandes y vistosas que pueden ser de diversos colores, incluidos rosa, púrpura y blanco. Se encuentra comúnmente en bosques tropicales y subtropicales, creciendo sobre árboles y rocas. La Orquídea Cattleya es apreciada por su capacidad para florecer anualmente y su uso en arreglos florales debido a su belleza y fragancia. Requiere condiciones específicas de luz y humedad para prosperar.",
-    "imageUrl": "https://example.com/orquidea-cattleya.jpg",
+    "id": "maria-goeppert-mayer",
+    "name": "Maria Goeppert Mayer",
+    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
+    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
     "facts": {
-        "nombreCientifico": "Cattleya labiata",
-        "cientificoDescubridor": "Robert Brown",
-        "continenteDeOrigen": "América Central y del Sur"
+      "yearOfBirth": "1906",
+      "yearOfDeath": "1972",
+      "birthPlace": "Kattowitz, Alemania",
+      "mainField": "Física"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+    }
   },
   {
-    "id": "orquidea-phalaenopsis",
-    "name": "Orquídea Phalaenopsis",
-    "shortDescription": "Flor epífita pequeña con flores en racimo.",
-    "description": "La Orquídea Phalaenopsis es una flor epífita pequeña que se destaca por sus flores en racimo, que vienen en una variedad de colores como blanco, rosa y morado. Originaria de las regiones tropicales de Asia, esta orquídea es conocida por su facilidad de cultivo en interiores, ya que prospera en condiciones de baja luz. Las flores duran varias semanas y tienen un aroma sutil. La Orquídea Phalaenopsis es muy apreciada por su elegancia y durabilidad, y es una de las orquídeas más populares como planta de interior.",
-    "imageUrl": "https://example.com/orquidea-phalaenopsis.jpg",
+    "id": "lise-meitner",
+    "name": "Lise Meitner",
+    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
+    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
     "facts": {
-        "nombreCientifico": "Phalaenopsis amabilis",
-        "cientificoDescubridor": "Blume",
-        "continenteDeOrigen": "Asia"
+      "yearOfBirth": "1878",
+      "yearOfDeath": "1968",
+      "birthPlace": "Viena, Austria",
+      "mainField": "Física"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+    }
   },
   {
-    "id": "orquidea-oncidium",
-    "name": "Orquídea Oncidium",
-    "shortDescription": "Flor epífita pequeña con flores en espiga.",
-    "description": "La Orquídea Oncidium es una flor epífita pequeña que produce flores en espiga, a menudo con múltiples florecillas de colores amarillos, marrones y a veces rosados. Originaria de América Central y del Sur, esta orquídea es conocida por su resistencia y su capacidad para florecer durante largos períodos. Prefiere condiciones de alta humedad y luz indirecta. La Orquídea Oncidium es popular tanto en arreglos florales como en jardinería por su exuberante floración y su atractivo visual en espacios interiores y exteriores.",
-    "imageUrl": "https://example.com/orquidea-oncidium.jpg",
+    "id": "sau-lan-wu",
+    "name": "Sau Lan Wu",
+    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
+    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
     "facts": {
-        "nombreCientifico": "Oncidium sphacelatum",
-        "cientificoDescubridor": "Lindley",
-        "continenteDeOrigen": "América Central y del Sur"
+      "yearOfBirth": "1940",
+      "birthPlace": "Hong Kong, China",
+      "mainField": "Física de Partículas"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+    }
   },
   {
-    "id": "tillandsia-ionantha",
-    "name": "Tillandsia Ionantha",
-    "shortDescription": "Planta epífita pequeña con hojas en espiral.",
-    "description": "La Tillandsia Ionantha es una planta epífita pequeña que se caracteriza por sus hojas en espiral que se vuelven rojas o rosadas cuando están listas para florecer. Originaria de las regiones áridas y semiáridas de América Central y del Sur, esta planta es conocida por su facilidad de cuidado y su adaptabilidad a diferentes entornos. La Tillandsia Ionantha no requiere tierra para crecer, y se puede colocar en diversos contenedores decorativos. Su floración es esporádica pero muy llamativa, con pequeñas flores moradas o violetas.",
-    "imageUrl": "https://example.com/tillandsia-ionantha.jpg",
+    "id": "jocelyn-bell-burnell",
+    "name": "Jocelyn Bell Burnell",
+    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
+    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
     "facts": {
-        "nombreCientifico": "Tillandsia ionantha",
-        "cientificoDescubridor": "Eduard Friedrich Poeppig",
-        "continenteDeOrigen": "América Central y del Sur"
+      "yearOfBirth": "1943",
+      "birthPlace": "Belfast, Reino Unido",
+      "mainField": "Astronomía, Astrofísica"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+    }
   },
   {
-    "id": "orquidea-dendrobium",
-    "name": "Orquídea Dendrobium",
-    "shortDescription": "Flor epífita pequeña con flores en racimo.",
-    "description": "La Orquídea Dendrobium es una flor epífita pequeña conocida por sus impresionantes flores en racimo, que presentan una amplia gama de colores que van desde el blanco y el morado hasta el amarillo. Esta orquídea es originaria de Asia y Australia, y se adapta bien a diversas condiciones de cultivo, tanto en interiores como en exteriores en climas cálidos. Las flores pueden durar varias semanas y tienen una apariencia elegante y delicada. La Orquídea Dendrobium es altamente apreciada en jardinería por su capacidad para florecer en condiciones variadas y por su belleza exótica y duradera.",
-    "imageUrl": "https://example.com/orquidea-dendrobium.jpg",
+    "id": "dorothy-crowfoot-hodgkin",
+    "name": "Dorothy Crowfoot Hodgkin",
+    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
+    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
     "facts": {
-        "nombreCientifico": "Dendrobium nobile",
-        "cientificoDescubridor": "Linnaeus",
-        "continenteDeOrigen": "Asia y Australia"
+      "yearOfBirth": "1910",
+      "yearOfDeath": "1994",
+      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
+      "mainField": "Química"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+    }
   },
   {
-    "id": "orquidea-ludisia",
-    "name": "Orquídea Ludisia",
-    "shortDescription": "Flor epífita pequeña con hojas ornamentales.",
-    "description": "La Orquídea Ludisia es una flor epífita pequeña que destaca por sus hojas ornamentales, que presentan un color verde oscuro con venas doradas. Originaria de Asia tropical, esta planta es conocida más por su follaje atractivo que por sus flores, que son pequeñas y de color blanco o rosa pálido. La Orquídea Ludisia prefiere condiciones de sombra parcial y alta humedad, y es ideal para cultivos en interiores. Su apariencia exótica y su fácil mantenimiento la hacen popular en jardines de interior y terrarios.",
-    "imageUrl": "https://example.com/orquidea-ludisia.jpg",
+    "id": "marie-curie",
+    "name": "Marie Curie",
+    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
+    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
     "facts": {
-        "nombreCientifico": "Ludisia discolor",
-        "cientificoDescubridor": "C. G. Lloyd",
-        "continenteDeOrigen": "Asia"
+      "yearOfBirth": "1867",
+      "yearOfDeath": "1934",
+      "birthPlace": "Varsovia, Polonia",
+      "mainField": "Física y Química"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+    }
   },
   {
-    "id": "bromelia-aechmea",
-    "name": "Bromelia Aechmea",
-    "shortDescription": "Planta epífita mediana con flores brillantes.",
-    "description": "La Bromelia Aechmea es una planta epífita mediana conocida por sus flores brillantes y su roseta de hojas rígidas. Originaria de América del Sur, esta bromelia puede florecer en una variedad de colores, incluidos rosa, rojo y azul. La Aechmea se adapta bien a ambientes interiores y exteriores con alta humedad y luz indirecta. Su capacidad para almacenar agua en la base de sus hojas la hace resistente a períodos secos. Es apreciada tanto por su atractivo estético como por su capacidad para prosperar en condiciones diversas.",
-    "imageUrl": "https://example.com/bromelia-aechmea.jpg",
+    "id": "marjory-stephenson",
+    "name": "Marjory Stephenson",
+    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
+    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
     "facts": {
-        "nombreCientifico": "Aechmea fasciata",
-        "cientificoDescubridor": "Linnaeus",
-        "continenteDeOrigen": "América del Sur"
+      "yearOfBirth": "1885",
+      "yearOfDeath": "1948",
+      "birthPlace": "Londres, Reino Unido",
+      "mainField": "Química, Microbiología, Bioquímica"
     },
-    
+    "extraInfo": {
+      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+    }
   },
   {
-    "id": "orquidea-brassia",
-    "name": "Orquídea Brassia",
-    "shortDescription": "Flor epífita mediana con flores inusuales.",
-    "description": "La Orquídea Brassia es una flor epífita mediana que se destaca por sus flores inusuales con forma de araña y colores que varían entre verde y marrón. Originaria de América Central y del Sur, esta orquídea es conocida por su aspecto exótico y sus largas espigas florales que pueden producir numerosas flores. La Orquídea Brassia prefiere condiciones cálidas y húmedas, y es ideal para cultivos en invernaderos o jardines tropicales. Su forma distintiva y su apariencia inusual la hacen muy apreciada en colecciones de orquídeas.",
-    "imageUrl": "https://example.com/orquidea-brassia.jpg",
+    "id": "rosalind-franklin",
+    "name": "Rosalind Franklin",
+    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
+    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
     "facts": {
-        "nombreCientifico": "Brassia arcuata",
-        "cientificoDescubridor": "Linnaeus",
-        "continenteDeOrigen": "América Central y del Sur"
+      "yearOfBirth": "1920",
+      "yearOfDeath": "1958",
+      "birthPlace": "Londres, Reino Unido",
+      "mainField": "Química, Cristalografía"
     },
-    
+    "extraInfo": {
+      "imageSource": ""
+    }
   }
 ];
