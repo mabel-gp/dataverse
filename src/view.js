@@ -6,14 +6,18 @@ export const renderItems = (data) => {
     const florcita = data[i];
     const flor = document.createElement("li");
     flor.innerHTML = 
-      `<dt>Nombre:</dt><dd>${florcita.name}</dd>
-       <dt>Descripción Corta:</dt><dd>${florcita.shortDescription}</dd>
-       <dt>Descripción:</dt><dd>${florcita.description}</dd>
-       <img src=${florcita.imageUrl}/>
-       <dt>Nombre Científico:</dt>${florcita.facts.nombreCientifico}<dd>
-       <dt>Científico Descubridor:</dt>${florcita.facts.cientificoDescubridor}<dd>
-       <dt>Continente de Origen:</dt>${florcita.facts.continenteDeOrigen}<dd>
-      ${florcita.id}`
+      `
+      <dl>
+        <dt>Nombre:</dt><dd>${florcita.name}</dd>
+        <dt>Descripción Corta:</dt><dd>${florcita.shortDescription}</dd>
+        <dt>Descripción:</dt><dd>${florcita.description}</dd>
+        <dt><img src="${florcita.imageUrl}" /></dt>
+        <dt>Nombre Científico:</dt><dd>${florcita.facts.nombreCientifico}</dd>
+        <dt>Científico Descubridor:</dt><dd>${florcita.facts.cientificoDescubridor}</dd>
+        <dt>Continente de Origen:</dt><dd>${florcita.facts.continenteDeOrigen}</dd>
+          ${florcita.id}
+      <dl>
+      `
 
     listaDeFlores.appendChild(flor);
   }
