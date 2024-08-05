@@ -7,14 +7,14 @@ export const renderItems = (data) => {
     const flor = document.createElement("li");
     flor.innerHTML = 
       `
-      <dl>
-        <dt>Nombre:</dt><dd>${florcita.name}</dd>
-        <dt>Descripción Corta:</dt><dd>${florcita.shortDescription}</dd>
-        <dt>Descripción:</dt><dd>${florcita.description}</dd>
-        <dt><img src="${florcita.imageUrl}" /></dt>
-        <dt>Nombre Científico:</dt><dd>${florcita.facts.nombreCientifico}</dd>
-        <dt>Científico Descubridor:</dt><dd>${florcita.facts.cientificoDescubridor}</dd>
-        <dt>Continente de Origen:</dt><dd>${florcita.facts.continenteDeOrigen}</dd>
+      <dl itemscope>
+        <dt>Nombre:</dt><dd itemprop="Nombre">${florcita.name}</dd>
+        <dt itemprop="Imagen"><img src="${florcita.imageUrl}" /></dt>
+        <dt>Descripción Corta:</dt><dd itemprop="Descripción Corta">${florcita.shortDescription}</dd>
+        <dt>Descripción:</dt><dd itemprop="Descripción">${florcita.description}</dd>
+        <dt>Nombre Científico:</dt><dd itemprop="Nombre Científico">${florcita.facts.nombreCientifico}</dd>
+        <dt>Científico Descubridor:</dt><dd itemprop="Científico Descubridor">${florcita.facts.cientificoDescubridor}</dd>
+        <dt>Continente de Origen:</dt><dd itemprop="Continente de Origen">${florcita.facts.continenteDeOrigen}</dd>
           ${florcita.id}
       <dl>
       `
@@ -24,14 +24,7 @@ export const renderItems = (data) => {
 
   const contenedorFlores = document.querySelector("#root");
   contenedorFlores.appendChild(listaDeFlores);
-  // console.log (listaDeFlores);
   return listaDeFlores;
 };
-// const contenedorFlores = document.querySelector("#root");
-// contenedorFlores.appendChild(listaDeFlores);
-// const lista = renderItems(data);
-// contenedorFlores.innerHTML;   //(listaDeFlores);
-// contenedorFlores.querySelector("#contenedor-flores").innerHTML;
-// contenedorFlores.innerHTML(listaDeFlores);
 
 

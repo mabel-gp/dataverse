@@ -173,7 +173,7 @@ export default [
     "name": "Nemesia",
     "shortDescription": "Flor terrestre pequeña con flores en racimo.",
     "description": "La Nemesia es una flor terrestre pequeña que produce racimos de flores coloridas, que pueden ser moradas, rosas, rojas o blancas. Originaria de Sudáfrica, esta planta anual es popular en jardines y macetas debido a su capacidad para florecer profusamente durante la primavera y el verano. Sus flores tienen una forma distintiva y su fragancia dulce atrae a polinizadores. La Nemesia es fácil de cultivar en suelos bien drenados y soleados, haciendo de ella una opción excelente para agregar un toque vibrante a los espacios exteriores.",
-    "imageUrl": "assets/images/nemesia.jpg",
+    "imageUrl": "/assets/images/nemesia.png",
     "facts": {
         "nombreCientifico": "Nemesia strumosa",
         "cientificoDescubridor": "William Burchell",
@@ -199,7 +199,7 @@ export default [
     "name": "Heliotropo",
     "shortDescription": "Flor terrestre mediana con fragancia dulce.",
     "description": "El Heliotropo es una flor terrestre mediana conocida por sus flores fragantes que varían en colores como azul, morado, rosa y blanco. Originaria de América del Sur, esta planta es valorada en jardinería por su aroma dulce y su capacidad para atraer mariposas y abejas. Las flores se agrupan en racimos y florecen durante la primavera y el verano, haciendo del Heliotropo una excelente opción para macetas, bordes de jardín y arreglos florales. Es una planta perenne que prefiere suelos bien drenados y condiciones de sol parcial a pleno.",
-    "imageUrl": "assets/images/heliotropo.jpg",
+    "imageUrl": "/assets/images/heliotropo.png",
     "facts": {
         "nombreCientifico": "Heliotropium arborescens",
         "cientificoDescubridor": "Carl Linnaeus",
@@ -212,7 +212,7 @@ export default [
     "name": "Orquídea Cattleya",
     "shortDescription": "Flor epífita grande con flores exuberantes.",
     "description": "La Orquídea Cattleya es una flor epífita grande famosa por sus exuberantes flores y su aroma delicado. Originaria de América Central y del Sur, esta orquídea destaca por sus flores grandes y vistosas que pueden ser de diversos colores, incluidos rosa, púrpura y blanco. Se encuentra comúnmente en bosques tropicales y subtropicales, creciendo sobre árboles y rocas. La Orquídea Cattleya es apreciada por su capacidad para florecer anualmente y su uso en arreglos florales debido a su belleza y fragancia. Requiere condiciones específicas de luz y humedad para prosperar.",
-    "imageUrl": "assets/images/orquidea-cattleya.jpg",
+    "imageUrl": "/assets/images/orquidea-cattleya.png",
     "facts": {
         "nombreCientifico": "Cattleya labiata",
         "cientificoDescubridor": "Robert Brown",
@@ -225,7 +225,7 @@ export default [
     "name": "Orquídea Phalaenopsis",
     "shortDescription": "Flor epífita pequeña con flores en racimo.",
     "description": "La Orquídea Phalaenopsis es una flor epífita pequeña que se destaca por sus flores en racimo, que vienen en una variedad de colores como blanco, rosa y morado. Originaria de las regiones tropicales de Asia, esta orquídea es conocida por su facilidad de cultivo en interiores, ya que prospera en condiciones de baja luz. Las flores duran varias semanas y tienen un aroma sutil. La Orquídea Phalaenopsis es muy apreciada por su elegancia y durabilidad, y es una de las orquídeas más populares como planta de interior.",
-    "imageUrl": "assets/images/orquidea-phalaenopsis.jpg",
+    "imageUrl": "/assets/images/orquidea-phalaenopsis.png",
     "facts": {
         "nombreCientifico": "Phalaenopsis amabilis",
         "cientificoDescubridor": "Blume",
@@ -238,7 +238,7 @@ export default [
     "name": "Orquídea Oncidium",
     "shortDescription": "Flor epífita pequeña con flores en espiga.",
     "description": "La Orquídea Oncidium es una flor epífita pequeña que produce flores en espiga, a menudo con múltiples florecillas de colores amarillos, marrones y a veces rosados. Originaria de América Central y del Sur, esta orquídea es conocida por su resistencia y su capacidad para florecer durante largos períodos. Prefiere condiciones de alta humedad y luz indirecta. La Orquídea Oncidium es popular tanto en arreglos florales como en jardinería por su exuberante floración y su atractivo visual en espacios interiores y exteriores.",
-    "imageUrl": "assets/images/orquidea-oncidium.jpg",
+    "imageUrl": "/assets/images/orquidea-oncidium.png",
     "facts": {
         "nombreCientifico": "Oncidium sphacelatum",
         "cientificoDescubridor": "Lindley",
@@ -264,7 +264,7 @@ export default [
     "name": "Orquídea Dendrobium",
     "shortDescription": "Flor epífita pequeña con flores en racimo.",
     "description": "La Orquídea Dendrobium es una flor epífita pequeña conocida por sus impresionantes flores en racimo, que presentan una amplia gama de colores que van desde el blanco y el morado hasta el amarillo. Esta orquídea es originaria de Asia y Australia, y se adapta bien a diversas condiciones de cultivo, tanto en interiores como en exteriores en climas cálidos. Las flores pueden durar varias semanas y tienen una apariencia elegante y delicada. La Orquídea Dendrobium es altamente apreciada en jardinería por su capacidad para florecer en condiciones variadas y por su belleza exótica y duradera.",
-    "imageUrl": "assets/images/orquidea-dendrobium.jpg",
+    "imageUrl": "/assets/images/orquidea-dendrobium.png",
     "facts": {
         "nombreCientifico": "Dendrobium nobile",
         "cientificoDescubridor": "Linnaeus",
@@ -277,7 +277,7 @@ export default [
     "name": "Orquídea Ludisia",
     "shortDescription": "Flor epífita pequeña con hojas ornamentales.",
     "description": "La Orquídea Ludisia es una flor epífita pequeña que destaca por sus hojas ornamentales, que presentan un color verde oscuro con venas doradas. Originaria de Asia tropical, esta planta es conocida más por su follaje atractivo que por sus flores, que son pequeñas y de color blanco o rosa pálido. La Orquídea Ludisia prefiere condiciones de sombra parcial y alta humedad, y es ideal para cultivos en interiores. Su apariencia exótica y su fácil mantenimiento la hacen popular en jardines de interior y terrarios.",
-    "imageUrl": "assets/images/orquidea-ludisia.jpg",
+    "imageUrl": "/assets/images/orquidea-ludisia.png",
     "facts": {
         "nombreCientifico": "Ludisia discolor",
         "cientificoDescubridor": "C. G. Lloyd",
@@ -290,7 +290,7 @@ export default [
     "name": "Bromelia Aechmea",
     "shortDescription": "Planta epífita mediana con flores brillantes.",
     "description": "La Bromelia Aechmea es una planta epífita mediana conocida por sus flores brillantes y su roseta de hojas rígidas. Originaria de América del Sur, esta bromelia puede florecer en una variedad de colores, incluidos rosa, rojo y azul. La Aechmea se adapta bien a ambientes interiores y exteriores con alta humedad y luz indirecta. Su capacidad para almacenar agua en la base de sus hojas la hace resistente a períodos secos. Es apreciada tanto por su atractivo estético como por su capacidad para prosperar en condiciones diversas.",
-    "imageUrl": "assets/images/bromelia-aechmea.jpg",
+    "imageUrl": "/assets/images/bromelia.png",
     "facts": {
         "nombreCientifico": "Aechmea fasciata",
         "cientificoDescubridor": "Linnaeus",
@@ -303,7 +303,7 @@ export default [
     "name": "Orquídea Brassia",
     "shortDescription": "Flor epífita mediana con flores inusuales.",
     "description": "La Orquídea Brassia es una flor epífita mediana que se destaca por sus flores inusuales con forma de araña y colores que varían entre verde y marrón. Originaria de América Central y del Sur, esta orquídea es conocida por su aspecto exótico y sus largas espigas florales que pueden producir numerosas flores. La Orquídea Brassia prefiere condiciones cálidas y húmedas, y es ideal para cultivos en invernaderos o jardines tropicales. Su forma distintiva y su apariencia inusual la hacen muy apreciada en colecciones de orquídeas.",
-    "imageUrl": "assets/images/Brassia arcuata.jpg",
+    "imageUrl": "/assets/images/Brassia.png",
     "facts": {
         "nombreCientifico": "Brassia arcuata",
         "cientificoDescubridor": "Linnaeus",
