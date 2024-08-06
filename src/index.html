@@ -2,10 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Dataverse</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Flores</title>
+    <link rel="icon" href="/assets/images/favicon.jpg" type="image/jpg">
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <header>
+      <img src="/assets/images/flor-header.png" alt="imagen-del-header">
+      <h1>Flores</h1>
+    </header>
+
+    <aside>
+      <label for="flor-habitat">Hábitat</label>
+      <select name="habitat" id="flor-habitat">
+        <option value="acuaticas">Acuáticas</option>
+        <option value="terrestres">Terrestres</option>
+        <option value="epifitas">Epífitas</option>
+      </select>
+
+      <label for="flor-tamaño">Tamaño</label>
+      <select name="tamaño" id="flor-tamaño">
+        <option value="pequeñas">Pequeñas</option>
+        <option value="medianas">Medianas</option>
+        <option value="grandes">Grandes</option>
+      </select>
+
+      <label for="ordenar-flor">Orden</label>
+      <select name="ordenar" id="ordenar-flor">
+        <option value="ascendente">A-Z</option>
+        <option value="descendente">Z-A</option>
+      </select>
+
+      <label for="estadistica-flor">Estadística</label>
+      <select name="estadistica" id="estadistica-flor"></select>
+
+      <div>
+        <button>Recargar</button>
+      </div>
+    </aside>
+
+    <main>
+      <div id="root" class="tarjetas-de-flores"></div>
+    </main>
+
+    <footer>
+      <p>Realizado por: Dora Huaire y Mabel Gutierrez</p>
+    </footer>
+
     <script src="main.js" type="module"></script>
   </body>
 </html>
