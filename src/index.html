@@ -16,30 +16,30 @@
 
     <aside>
       <label for="flor-habitat">Hábitat</label>
-      <select name="habitat" id="flor-habitat">
+      <select name="habitat" id="flor-habitat" data-testid="select-filter">
         <option value="acuaticas">Acuáticas</option>
         <option value="terrestres">Terrestres</option>
         <option value="epifitas">Epífitas</option>
       </select>
 
       <label for="flor-tamaño">Tamaño</label>
-      <select name="tamaño" id="flor-tamaño">
+      <select name="tamaño" id="flor-tamaño" data-testid="select-filter">
         <option value="pequeñas">Pequeñas</option>
         <option value="medianas">Medianas</option>
         <option value="grandes">Grandes</option>
       </select>
 
       <label for="ordenar-flor">Orden</label>
-      <select name="ordenar" id="ordenar-flor">
+      <select name="ordenar" id="ordenar-flor" data-testid="select-sort">
         <option value="ascendente">A-Z</option>
         <option value="descendente">Z-A</option>
       </select>
 
       <label for="estadistica-flor">Estadística</label>
-      <select name="estadistica" id="estadistica-flor"></select>
+      <select name="estadistica" id="estadistica-flor" data-testid="select-filter"></select>
 
       <div>
-        <button>Recargar</button>
+        <button data-testid="button-clear">Recargar</button>
       </div>
     </aside>
 

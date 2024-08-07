@@ -31,11 +31,23 @@ aside {
     padding: 40px;
 }
 
-ul{
+main{
     background-color: #F6F2F8;
+    padding: 50px 50px 50px 50px;
+}
+
+ul{
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 50px 50px 50px;
+    gap: 30px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%; 
+    margin: 10px;
 }
 
 li img {

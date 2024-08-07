@@ -7,7 +7,7 @@ export const renderItems = (data) => {
     const flor = document.createElement("li");
     flor.innerHTML = 
       `
-      <dl itemscope>
+      <dl itemscope itemtype = "Flores">
         <dt>Nombre:</dt><dd itemprop="Nombre">${florcita.name}</dd>
         <dt itemprop="Imagen"><img src="${florcita.imageUrl}" /></dt>
         <dt>Descripción Corta:</dt><dd itemprop="Descripción Corta">${florcita.shortDescription}</dd>

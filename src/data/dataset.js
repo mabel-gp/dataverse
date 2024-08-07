@@ -8,7 +8,8 @@ export default [
     "facts": {
         "nombreCientifico": "Nelumbo nucifera",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Asia"
+        "continenteDeOrigen": "Asia",
+        "tipoDeHabitat": "Acuática"
     },
 
   },
