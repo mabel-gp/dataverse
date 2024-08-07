@@ -15,15 +15,17 @@ export const renderItems = (data) => {
         <dt>Nombre Científico:</dt><dd itemprop="Nombre Científico">${florcita.facts.nombreCientifico}</dd>
         <dt>Científico Descubridor:</dt><dd itemprop="Científico Descubridor">${florcita.facts.cientificoDescubridor}</dd>
         <dt>Continente de Origen:</dt><dd itemprop="Continente de Origen">${florcita.facts.continenteDeOrigen}</dd>
-          ${florcita.id}
+        <dt>Hábitat:</dt><dd itemprop="Tipo de Hábitat">${florcita.facts.tipoDeHabitat}</dd>
+        <dt>Tamaño:</dt><dd itemprop="Tamaño de Flor">${florcita.facts.tamañoDeFlor}</dd>
+        ${florcita.id}
       <dl>
       `
 
     listaDeFlores.appendChild(flor);
   }
 
-  const contenedorFlores = document.querySelector("#root");
-  contenedorFlores.appendChild(listaDeFlores);
+  //const contenedorFlores = document.querySelector("#root");
+  //contenedorFlores.appendChild(listaDeFlores);
   return listaDeFlores;
 };
 
