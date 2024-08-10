@@ -1,18 +1,21 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { filterDataHabitat, filterDataTamaño} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
-console.log(fakeData);
+//console.log(fakeData);
 
-describe('example', () => {
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+describe('filterDataHabitat()', () => {
+  it('debería devolver Acuática', () => {
+    const prueba = filterDataHabitat(fakeData,"tipoDeHabitat", "Acuática")
+    expect(prueba.tipoDeHabitat).toEqual("Acuática");
   });
 });
 
-describe('anotherExample', () => {
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+
+
+describe('filterDataTamaño', () => {
+
+  it('debería devolver Grande', () => {
+    expect(filterDataTamaño(fakeData, "tamañoDeFlor", "Grande")).toEqual("Grande");
   });
 });

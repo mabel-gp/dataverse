@@ -5,9 +5,13 @@ export const renderItems = (data) => {
   for(let i=0; i<data.length; i++) {
     const florcita = data[i];
     const flor = document.createElement("li");
-    flor.innerHTML = 
+    flor.classList.add("características");
+    flor.setAttribute("itemtype", "http://schema.org/Flores");
+    flor.setAttribute("itemscope", "");
+
+    flor.innerHTML =  
       `
-      <dl itemscope itemtype = "Flores">
+      <dl>
         <dd itemprop="name">${florcita.name}</dd>
         <dt itemprop="imageUrl"><img src="${florcita.imageUrl}" /></dt>
         <dd itemprop="shortDescription">${florcita.shortDescription}</dd>

@@ -76,7 +76,7 @@ ul{
     row-gap: 3rem;
 }
 
-li {
+.características {
     display: flex;
     width: 25%;  
     margin: 2rem;
@@ -84,7 +84,7 @@ li {
     background-color: #F1E4E5;
 }
 
-li img {
+.características img {
     width: 18rem;
     height: 18rem;
     display: flex;
