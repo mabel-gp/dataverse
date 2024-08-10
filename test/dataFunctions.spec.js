@@ -6,7 +6,7 @@ import { data as fakeData } from './data.js';
 describe('filterDataHabitat()', () => {
   it('debería devolver Acuática', () => {
     const prueba = filterDataHabitat(fakeData,"tipoDeHabitat", "Acuática")
-    expect(prueba.tipoDeHabitat).toEqual("Acuática");
+    expect(prueba.tipoDeHabitat).toBe("Acuática");
   });
 });
 

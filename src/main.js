@@ -6,13 +6,6 @@ import { filterDataTamaño } from './dataFunctions.js'
 const arregloDeFlores = document.querySelector("#root");
 arregloDeFlores.appendChild(renderItems(data));
 
-
-// const contenedorHabitat = document.querySelector("#flor-habitat");
-// contenedorHabitat.addEventListener("change", () => {
-//   const items = renderItems(filterData(data, "tipoDeHabitat", "Acuática"));
-//   arregloDeFlores.replaceChildren(items);
-// });
-
 const contenedorHabitat = document.querySelector("#flor-habitat");
 contenedorHabitat.addEventListener("change", selectDeHabitat);
 
@@ -48,6 +41,12 @@ function selectDeTamaño(event){
     arregloDeFlores.replaceChildren(items);
   }
 }
+
+const botonRecargar = document.querySelector('[data-testid = "button-clear"]');
+botonRecargar.addEventListener("click", () => {
+  location.reload();
+});
+
 
 
 // console.log (filterData, renderItems(data), data);
