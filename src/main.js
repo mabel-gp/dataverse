@@ -1,7 +1,7 @@
 import data from './data/dataset.js';
 import { renderItems } from './view.js';
-import { filterDataHabitat } from './dataFunctions.js';
-import { filterDataTamaño } from './dataFunctions.js'
+import { filterDataHabitat, filterDataTamaño} from './dataFunctions.js';
+import { sortData } from './dataFunctions.js'
 
 const arregloDeFlores = document.querySelector("#root");
 arregloDeFlores.appendChild(renderItems(data));
@@ -38,6 +38,21 @@ function selectDeTamaño(event){
     arregloDeFlores.replaceChildren(items);
   }else if(opcionDeTamaño === "grandes"){
     const items = renderItems(filterDataTamaño(data, "tamañoDeFlor", "Grande"));
+    arregloDeFlores.replaceChildren(items);
+  }
+}
+
+const contenedorOrdenar = document.querySelector("#ordenar-flor");
+contenedorOrdenar.addEventListener("change", selectDeOrdenar);
+
+function selectDeOrdenar(event){
+  const opcionDeOrden = event.target.value;
+
+  if (opcionDeOrden === "asc"){
+    const items = renderItems(sortData(data, "name", "asc"));
+    arregloDeFlores.replaceChildren(items);
+  }else if (opcionDeOrden === "des"){
+    const items = renderItems (sortData(data, "name", "des"));
     arregloDeFlores.replaceChildren(items);
   }
 }

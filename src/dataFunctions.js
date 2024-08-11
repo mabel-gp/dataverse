@@ -29,5 +29,28 @@ export const filterDataTamaño = (data, filterBy, value) => {
     }
   });
   return(filtradasPorTamaño);
+};
 
+
+export const sortData = (data, sortBy, sortOrder) =>{
+  
+  const nombre = data.map(objeto => objeto.name);
+  const mapped = data.map((elemento, i) => {
+    return{index: i, name: elemento}
+  });
+
+  mapped.sort((a, b) => {
+    if(sortOrder === "asc"){
+      if(a.name > b.name){
+        return 1;
+      }else if(a.name < b.name){
+        return -1;
+      }return 0;
+    }
+  });
+
+  const resultado = mapped.map((elemento) =>{
+    return nombre[elemento.index];
+  });
+  return(resultado);
 };
