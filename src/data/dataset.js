@@ -8,7 +8,9 @@ export default [
     "facts": {
         "nombreCientifico": "Nelumbo nucifera",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Asia"
+        "continenteDeOrigen": "Asia",
+        "tipoDeHabitat": "Acuática",
+        "tamañoDeFlor": "Grande"
     },
 
   },
@@ -21,7 +23,9 @@ export default [
     "facts": {
         "nombreCientifico": "Victoria amazonica",
         "cientificoDescubridor": "John Lindley",
-        "continenteDeOrigen": "Sudamérica"
+        "continenteDeOrigen": "Sudamérica",
+        "tipoDeHabitat": "Acuática",
+        "tamañoDeFlor": "Grande"
     },
 
   },
@@ -34,7 +38,9 @@ export default [
     "facts": {
         "nombreCientifico": "Nymphaea",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Diversos continentes"
+        "continenteDeOrigen": "Diversos continentes",
+        "tipoDeHabitat": "Acuática",
+        "tamañoDeFlor": "Grande"
     },
     
   },
@@ -47,7 +53,9 @@ export default [
     "facts": {
         "nombreCientifico": "Elodea canadensis",
         "cientificoDescubridor": "André Michaux",
-        "continenteDeOrigen": "América del Norte"
+        "continenteDeOrigen": "América del Norte",
+        "tipoDeHabitat": "Acuática",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -60,7 +68,9 @@ export default [
     "facts": {
         "nombreCientifico": "Sagittaria latifolia",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "América del Norte"
+        "continenteDeOrigen": "América del Norte",
+        "tipoDeHabitat": "Acuática",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -73,7 +83,9 @@ export default [
     "facts": {
         "nombreCientifico": "Cabomba caroliniana",
         "cientificoDescubridor": "André Michaux",
-        "continenteDeOrigen": "América del Norte"
+        "continenteDeOrigen": "América del Norte",
+        "tipoDeHabitat": "Acuática",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -86,7 +98,9 @@ export default [
     "facts": {
         "nombreCientifico": "Iris pseudacorus",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Europa y Asia"
+        "continenteDeOrigen": "Europa y Asia",
+        "tipoDeHabitat": "Acuática",
+        "tamañoDeFlor": "Mediana"
     },
     
   },
@@ -99,7 +113,9 @@ export default [
     "facts": {
         "nombreCientifico": "Eichhornia crassipes",
         "cientificoDescubridor": "Carl Friedrich Philipp von Martius",
-        "continenteDeOrigen": "Sudamérica"
+        "continenteDeOrigen": "Sudamérica",
+        "tipoDeHabitat": "Acuática",
+        "tamañoDeFlor": "Mediana"
     },
     
   },
@@ -112,7 +128,9 @@ export default [
     "facts": {
         "nombreCientifico": "Iris germanica",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "Europa y Asia"
+        "continenteDeOrigen": "Europa y Asia",
+        "tipoDeHabitat": "Terrestre",
+        "tamañoDeFlor": "Grande"
     },
     
   },
@@ -125,7 +143,9 @@ export default [
     "facts": {
         "nombreCientifico": "Canna indica",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "América Central y del Sur"
+        "continenteDeOrigen": "América Central y del Sur",
+        "tipoDeHabitat": "Terrestre",
+        "tamañoDeFlor": "Grande"
     },
     
   },
@@ -138,7 +158,9 @@ export default [
     "facts": {
         "nombreCientifico": "Alstroemeria aurea",
         "cientificoDescubridor": "Carlos Linnaeus",
-        "continenteDeOrigen": "América del Sur"
+        "continenteDeOrigen": "América del Sur",
+        "tipoDeHabitat": "Terrestre",
+        "tamañoDeFlor": "Grande"
     },
     
   },
@@ -151,7 +173,9 @@ export default [
     "facts": {
         "nombreCientifico": "Dahlia pinnata",
         "cientificoDescubridor": "Andrés Dahl",
-        "continenteDeOrigen": "América del Norte"
+        "continenteDeOrigen": "América del Norte",
+        "tipoDeHabitat": "Terrestre",
+        "tamañoDeFlor": "Grande"
     },
     
   },
@@ -164,7 +188,9 @@ export default [
     "facts": {
         "nombreCientifico": "Saintpaulia ionantha",
         "cientificoDescubridor": "Baron Walter von Saint Paul",
-        "continenteDeOrigen": "África"
+        "continenteDeOrigen": "África",
+        "tipoDeHabitat": "Terrestre",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -177,7 +203,9 @@ export default [
     "facts": {
         "nombreCientifico": "Nemesia strumosa",
         "cientificoDescubridor": "William Burchell",
-        "continenteDeOrigen": "África"
+        "continenteDeOrigen": "África",
+        "tipoDeHabitat": "Terrestre",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -190,7 +218,9 @@ export default [
     "facts": {
         "nombreCientifico": "Lobelia erinus",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "África y Europa"
+        "continenteDeOrigen": "África y Europa",
+        "tipoDeHabitat": "Terrestre",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -203,7 +233,9 @@ export default [
     "facts": {
         "nombreCientifico": "Heliotropium arborescens",
         "cientificoDescubridor": "Carl Linnaeus",
-        "continenteDeOrigen": "América del Sur"
+        "continenteDeOrigen": "América del Sur",
+        "tipoDeHabitat": "Terrestre",
+        "tamañoDeFlor": "Mediana"
     },
     
   },
@@ -216,7 +248,9 @@ export default [
     "facts": {
         "nombreCientifico": "Cattleya labiata",
         "cientificoDescubridor": "Robert Brown",
-        "continenteDeOrigen": "América Central y del Sur"
+        "continenteDeOrigen": "América Central y del Sur",
+        "tipoDeHabitat": "Epífita",
+        "tamañoDeFlor": "Grande"
     },
     
   },
@@ -229,7 +263,9 @@ export default [
     "facts": {
         "nombreCientifico": "Phalaenopsis amabilis",
         "cientificoDescubridor": "Blume",
-        "continenteDeOrigen": "Asia"
+        "continenteDeOrigen": "Asia",
+        "tipoDeHabitat": "Epífita",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -242,7 +278,9 @@ export default [
     "facts": {
         "nombreCientifico": "Oncidium sphacelatum",
         "cientificoDescubridor": "Lindley",
-        "continenteDeOrigen": "América Central y del Sur"
+        "continenteDeOrigen": "América Central y del Sur",
+        "tipoDeHabitat": "Epífita",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -255,7 +293,9 @@ export default [
     "facts": {
         "nombreCientifico": "Tillandsia ionantha",
         "cientificoDescubridor": "Eduard Friedrich Poeppig",
-        "continenteDeOrigen": "América Central y del Sur"
+        "continenteDeOrigen": "América Central y del Sur",
+        "tipoDeHabitat": "Epífita",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -268,7 +308,9 @@ export default [
     "facts": {
         "nombreCientifico": "Dendrobium nobile",
         "cientificoDescubridor": "Linnaeus",
-        "continenteDeOrigen": "Asia y Australia"
+        "continenteDeOrigen": "Asia y Australia",
+        "tipoDeHabitat": "Epífita",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -281,7 +323,9 @@ export default [
     "facts": {
         "nombreCientifico": "Ludisia discolor",
         "cientificoDescubridor": "C. G. Lloyd",
-        "continenteDeOrigen": "Asia"
+        "continenteDeOrigen": "Asia",
+        "tipoDeHabitat": "Epífita",
+        "tamañoDeFlor": "Pequeña"
     },
     
   },
@@ -294,7 +338,9 @@ export default [
     "facts": {
         "nombreCientifico": "Aechmea fasciata",
         "cientificoDescubridor": "Linnaeus",
-        "continenteDeOrigen": "América del Sur"
+        "continenteDeOrigen": "América del Sur",
+        "tipoDeHabitat": "Epífita",
+        "tamañoDeFlor": "Mediana"
     },
     
   },
@@ -307,7 +353,9 @@ export default [
     "facts": {
         "nombreCientifico": "Brassia arcuata",
         "cientificoDescubridor": "Linnaeus",
-        "continenteDeOrigen": "América Central y del Sur"
+        "continenteDeOrigen": "América Central y del Sur",
+        "tipoDeHabitat": "Epífita",
+        "tamañoDeFlor": "Mediana"
     },
     
   }
