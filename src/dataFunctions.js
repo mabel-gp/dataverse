@@ -12,7 +12,7 @@ export const filterDataHabitat = (data, filterBy, value) => {
       return 'No hay datos para mostrar';
     }
   });
-  return(filtradasPorHabitat);
+  return filtradasPorHabitat;
 };
 
 
@@ -28,29 +28,25 @@ export const filterDataTamaño = (data, filterBy, value) => {
       return 'No hay datos para mostrar';
     }
   });
-  return(filtradasPorTamaño);
+  return filtradasPorTamaño;
 };
 
 
-export const sortData = (data, sortBy, sortOrder) =>{
-  
-  const nombre = data.map(objeto => objeto.name);
-  const mapped = data.map((elemento, i) => {
-    return{index: i, name: elemento}
-  });
+export const sortData = (data, sortOrder) =>{
 
-  mapped.sort((a, b) => {
+  return data.sort((a, b) => {
     if(sortOrder === "asc"){
       if(a.name > b.name){
         return 1;
-      }else if(a.name < b.name){
+      }else{
         return -1;
-      }return 0;
+      }
+    }else{
+      if(a.name < b.name){
+        return 1;
+      }else{
+        return -1;
+      }
     }
   });
-
-  const resultado = mapped.map((elemento) =>{
-    return nombre[elemento.index];
-  });
-  return(resultado);
 };
