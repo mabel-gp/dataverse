@@ -50,3 +50,15 @@ export const sortData = (data, sortOrder) =>{
     }
   });
 };
+
+
+export const computeStats = (data, dataBy) =>{
+  const prueba= data.reduce((contador, elemento) => {
+    if(elemento.facts[dataBy] === "Acuática"){
+      return contador +1;
+    }else{
+      return contador;
+    }
+  },0);
+  console.log(prueba);
+} 

@@ -13,7 +13,7 @@ export const renderItems = (data) => {
       `
       <dl>
         <dd itemprop="name">${dato.name}</dd>
-        <dd itemprop="imageUrl"><img src="${dato.imageUrl}" /></dd>
+        <dd itemprop="imageUrl"><img src="${dato.imageUrl}"/></dd>
         <dd itemprop="shortDescription">${dato.shortDescription}</dd>
         <dt>Origen:</dt><dd itemprop="continenteDeOrigen">${dato.facts.continenteDeOrigen}</dd>
         <dt>Hábitat:</dt><dd itemprop="tipoDeHabitat">${dato.facts.tipoDeHabitat}</dd>

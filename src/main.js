@@ -1,12 +1,24 @@
 import data from './data/dataset.js';
 import { renderItems } from './view.js';
-import { filterDataHabitat, filterDataTamaño} from './dataFunctions.js';
-import { sortData } from './dataFunctions.js'
+import { filterDataHabitat, filterDataTamaño, sortData, computeStats} from './dataFunctions.js';
+
 
 let currentData = data;
 
 const arregloDeFlores = document.querySelector("#root");
 arregloDeFlores.appendChild(renderItems(data));
+
+
+//probando insertar estadistica
+const estadistica = computeStats(data, "tipoDeHabitat");
+
+const prueba = document.querySelector("#estadistica");
+prueba.replaceChildren(estadistica);
+
+
+
+
+
 
 //HÁBITAT
 function selectDeHabitat(event){

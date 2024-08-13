@@ -74,7 +74,7 @@ button {
     font-size: 1.8rem;
     border: none;
     font-family: "Aref Ruqaa Ink", serif;
-    box-shadow: 0 0.5rem 0 0 #DBB4E3;
+    box-shadow: 0 0.4rem 0 0 #DBB4E3;
     color: #333333;
 }
 
@@ -103,12 +103,25 @@ ul{
     row-gap: 3rem;
 }
 
+/* li.caracteristicas dd{
+    display: flex;
+    flex-wrap: wrap;
+/* } /*probando acomodar dl y dd */
+
 .caracteristicas {
     display: flex;
     width: 25%;  
     margin: 2rem;
     padding: 3rem 2rem 3rem 2rem;
     background-color: #F1E4E5;
+    color: #333333;
+   
+}
+
+dd[itemprop="name"]{
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
 }
 
 .caracteristicas img {
@@ -125,4 +138,5 @@ footer{
     align-items: center;
     font-size: 1.8rem;
     font-family: "Aref Ruqaa Ink", serif;
+    color: #333333;
 }
