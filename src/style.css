@@ -95,6 +95,12 @@ main div{
     font-family: "Alegreya Sans", sans-serif;
 }
 
+#estadistica{
+    background-color: #e9dfed;
+    padding-left: 50rem;
+    font-size: 2rem;
+}
+
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -102,11 +108,6 @@ ul{
     align-items: center;  
     row-gap: 3rem;
 }
-
-/* li.caracteristicas dd{
-    display: flex;
-    flex-wrap: wrap;
-/* } /*probando acomodar dl y dd */
 
 .caracteristicas {
     display: flex;

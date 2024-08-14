@@ -10,14 +10,14 @@ arregloDeFlores.appendChild(renderItems(data));
 
 
 //probando insertar estadistica
-const estadistica = computeStats(data, "tipoDeHabitat");
+const contenedorEstadistica = document.querySelector("#estadistica");
+const computeStatsAcuatica = computeStats(data, "tipoDeHabitat", "Acuática");
+const computeStatsTerrestre = computeStats(data, "tipoDeHabitat", "Terrestre");
+const computeStatsEpifita = computeStats(data, "tipoDeHabitat", "Epífita");
 
-const prueba = document.querySelector("#estadistica");
-prueba.replaceChildren(estadistica);
-
-
-
-
+const computeStatsPequeña = computeStats(data, "tamañoDeFlor", "Pequeña");
+const computeStatsMediana = computeStats(data, "tamañoDeFlor", "Mediana");
+const computeStatsGrande = computeStats(data, "tamañoDeFlor", "Grande");
 
 
 //HÁBITAT
@@ -28,14 +28,17 @@ function selectDeHabitat(event){
     currentData = filterDataHabitat(data, "tipoDeHabitat", "Acuática")
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
+    contenedorEstadistica.innerHTML = "El total de flores acuáticas es " + computeStatsAcuatica;
   }else if (opcionDeHabitat === "terrestres"){
     currentData = filterDataHabitat(data, "tipoDeHabitat", "Terrestre")
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
+    contenedorEstadistica.innerHTML = "El total de flores terrestres es " + computeStatsTerrestre;
   }else if(opcionDeHabitat === "epífitas"){
     currentData = filterDataHabitat(data, "tipoDeHabitat", "Epífita")
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
+    contenedorEstadistica.innerHTML = "El total de flores epífitas es " + computeStatsEpifita;
   }
 }
 
@@ -60,14 +63,17 @@ function selectDeTamaño(event){
     currentData = filterDataTamaño(data, "tamañoDeFlor", "Pequeña");
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
+    contenedorEstadistica.innerHTML = "El total de flores pequeñas es " + computeStatsPequeña;
   }else if (opcionDeTamaño === "medianas"){
     currentData = filterDataTamaño(data, "tamañoDeFlor", "Mediana");
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
+    contenedorEstadistica.innerHTML = "El total de flores medianas es " + computeStatsMediana;
   }else if(opcionDeTamaño === "grandes"){
     currentData = filterDataTamaño(data, "tamañoDeFlor", "Grande");
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
+    contenedorEstadistica.innerHTML = "El total de flores grandes es " + computeStatsGrande;
   }
 }
 
