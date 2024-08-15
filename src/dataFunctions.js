@@ -1,4 +1,3 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
 export const filterDataHabitat = (data, filterBy, value) => {
   const filtradasPorHabitat = data.filter((florHabitat) => {
@@ -64,3 +63,12 @@ export const computeStats = (data, dataBy, tipo) =>{
 } 
 
 
+//Probando estadística para porcentaje
+export const computeStatsPrueba = (data, dataBy, tipo) =>{
+  const prueba = data.map((datos) => {
+    return datos.facts[dataBy] === tipo;
+  })
+  const resultado = prueba.reduce((contador, elemento) => contador + elemento, 0);
+  const porcentaje = (resultado / data.length)*100;
+  return porcentaje;
+}

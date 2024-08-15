@@ -1,6 +1,6 @@
 import data from './data/dataset.js';
 import { renderItems } from './view.js';
-import { filterDataHabitat, filterDataTamaño, sortData, computeStats} from './dataFunctions.js';
+import { filterDataHabitat, filterDataTamaño, sortData, computeStats, computeStatsPrueba} from './dataFunctions.js';
 
 
 let currentData = data;
@@ -9,8 +9,9 @@ const arregloDeFlores = document.querySelector("#root");
 arregloDeFlores.appendChild(renderItems(data));
 
 
-//probando insertar estadistica
+//VARIABLES conectadas con dataFunctions para mostrar el total de flores por cada filtro
 const contenedorEstadistica = document.querySelector("#estadistica");
+
 const computeStatsAcuatica = computeStats(data, "tipoDeHabitat", "Acuática");
 const computeStatsTerrestre = computeStats(data, "tipoDeHabitat", "Terrestre");
 const computeStatsEpifita = computeStats(data, "tipoDeHabitat", "Epífita");
@@ -18,6 +19,9 @@ const computeStatsEpifita = computeStats(data, "tipoDeHabitat", "Epífita");
 const computeStatsPequeña = computeStats(data, "tamañoDeFlor", "Pequeña");
 const computeStatsMediana = computeStats(data, "tamañoDeFlor", "Mediana");
 const computeStatsGrande = computeStats(data, "tamañoDeFlor", "Grande");
+
+const computeStatsPruebaDos = computeStatsPrueba(data, "continenteDeOrigen", "Asia");
+contenedorEstadistica.innerHTML = computeStatsPruebaDos + " % provienen de Asia";
 
 
 //HÁBITAT
@@ -46,15 +50,6 @@ const contenedorHabitat = document.querySelector("#flor-habitat");
 contenedorHabitat.addEventListener("change", selectDeHabitat);
 
 
-// PROBANDO REDUCIR EN TAMAÑO
-// function selectDeTamaño(event){
-//   const opcionDeTamaño = event.target.value;
-//   const prueba = filterDataTamaño(currentData, "tamañoDeFlor", opcionDeTamaño);
-//   const itemsPrueba = renderItems (prueba);
-//   arregloDeFlores.replaceChildren(itemsPrueba);
-// }
-
-
 //TAMAÑO
 function selectDeTamaño(event){
   const opcionDeTamaño = event.target.value;
@@ -81,27 +76,6 @@ const contenedorTamaño = document.querySelector("#flor-tamaño");
 contenedorTamaño.addEventListener("change", selectDeTamaño);
 
 
-
-//COPIA DE TAMAÑO
-// const contenedorTamaño = document.querySelector("#flor-tamaño");
-// contenedorTamaño.addEventListener("change", selectDeTamaño);
-
-// function selectDeTamaño(event){
-//   const opcionDeTamaño = event.target.value;
-
-//   if (opcionDeTamaño === "pequeñas"){
-//     const items = renderItems(filterDataTamaño(data, "tamañoDeFlor", "Pequeña"));
-//     arregloDeFlores.replaceChildren(items);
-//   }else if (opcionDeTamaño === "medianas"){
-//     const items = renderItems(filterDataTamaño(data, "tamañoDeFlor", "Mediana"));
-//     arregloDeFlores.replaceChildren(items);
-//   }else if(opcionDeTamaño === "grandes"){
-//     const items = renderItems(filterDataTamaño(data, "tamañoDeFlor", "Grande"));
-//     arregloDeFlores.replaceChildren(items);
-//   }
-// }
-
-
 //ORDENAR
 function selectDeOrdenar(event){
   const opcionDeOrden = event.target.value;
@@ -115,11 +89,14 @@ contenedorOrdenar.addEventListener("change", selectDeOrdenar);
 
 
 //BOTÓN
-
 const dataOriginal = data;
 const botonRecargar = document.querySelector('[data-testid = "button-clear"]');
 botonRecargar.addEventListener("click", () => {
   const limpiar = renderItems(dataOriginal) //volver a renderizar items con la data inicial
+  contenedorEstadistica.innerHTML = "";
+  contenedorHabitat.value = "elegir-por-habitat";
+  contenedorTamaño.value = "elegir-por-tamaño";
+  contenedorOrdenar.value = "elegir-por-orden";
   arregloDeFlores.replaceChildren(limpiar);
 });
 
