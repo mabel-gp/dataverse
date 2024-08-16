@@ -1,6 +1,6 @@
 import data from './data/dataset.js';
 import { renderItems } from './view.js';
-import { filterDataHabitat, filterDataTamaño, sortData, computeStats, computeStatsPrueba} from './dataFunctions.js';
+import { filterDataHabitat, filterDataTamaño, sortData, computeStats, computeStatsPorcentaje} from './dataFunctions.js';
 
 
 let currentData = data;
@@ -20,8 +20,10 @@ const computeStatsPequeña = computeStats(data, "tamañoDeFlor", "Pequeña");
 const computeStatsMediana = computeStats(data, "tamañoDeFlor", "Mediana");
 const computeStatsGrande = computeStats(data, "tamañoDeFlor", "Grande");
 
-const computeStatsPruebaDos = computeStatsPrueba(data, "continenteDeOrigen", "Asia");
-contenedorEstadistica.innerHTML = computeStatsPruebaDos + " % provienen de Asia";
+let computeStatsAmerica = computeStatsPorcentaje(currentData, "continenteDeOrigen", "América");
+let computeStatsAfrica = computeStatsPorcentaje(currentData, "continenteDeOrigen", "África");
+let computeStatsAsia = computeStatsPorcentaje(currentData, "continenteDeOrigen", "Asia");
+
 
 
 //HÁBITAT
@@ -32,17 +34,20 @@ function selectDeHabitat(event){
     currentData = filterDataHabitat(data, "tipoDeHabitat", "Acuática")
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
-    contenedorEstadistica.innerHTML = "El total de flores acuáticas es " + computeStatsAcuatica;
+    computeStatsAmerica = computeStatsPorcentaje(currentData, "continenteDeOrigen", "América");
+    contenedorEstadistica.innerHTML = "El total de flores acuáticas es " + computeStatsAcuatica + " y el " + computeStatsAmerica + "% provienen de América";
   }else if (opcionDeHabitat === "terrestres"){
     currentData = filterDataHabitat(data, "tipoDeHabitat", "Terrestre")
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
-    contenedorEstadistica.innerHTML = "El total de flores terrestres es " + computeStatsTerrestre;
+    computeStatsAfrica = computeStatsPorcentaje(currentData, "continenteDeOrigen", "África");
+    contenedorEstadistica.innerHTML = "El total de flores terrestres es " + computeStatsTerrestre + " y el " + computeStatsAfrica + "% provienen de África";
   }else if(opcionDeHabitat === "epífitas"){
     currentData = filterDataHabitat(data, "tipoDeHabitat", "Epífita")
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
-    contenedorEstadistica.innerHTML = "El total de flores epífitas es " + computeStatsEpifita;
+    computeStatsAsia = computeStatsPorcentaje(currentData, "continenteDeOrigen", "Asia");
+    contenedorEstadistica.innerHTML = "El total de flores epífitas es " + computeStatsEpifita + " y el " + computeStatsAsia + "% provienen de Asia";
   }
 }
 
@@ -58,17 +63,20 @@ function selectDeTamaño(event){
     currentData = filterDataTamaño(data, "tamañoDeFlor", "Pequeña");
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
-    contenedorEstadistica.innerHTML = "El total de flores pequeñas es " + computeStatsPequeña;
+    computeStatsAmerica = computeStatsPorcentaje(currentData, "continenteDeOrigen", "América");
+    contenedorEstadistica.innerHTML = "El total de flores pequeñas es " + computeStatsPequeña + " y el " + computeStatsAmerica + "% provienen de América";
   }else if (opcionDeTamaño === "medianas"){
     currentData = filterDataTamaño(data, "tamañoDeFlor", "Mediana");
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
-    contenedorEstadistica.innerHTML = "El total de flores medianas es " + computeStatsMediana;
+    computeStatsAmerica = computeStatsPorcentaje(currentData, "continenteDeOrigen", "América");
+    contenedorEstadistica.innerHTML = "El total de flores medianas es " + computeStatsMediana + " y el " + computeStatsAmerica + "% provienen de América";
   }else if(opcionDeTamaño === "grandes"){
     currentData = filterDataTamaño(data, "tamañoDeFlor", "Grande");
     const items = renderItems(currentData);
     arregloDeFlores.replaceChildren(items);
-    contenedorEstadistica.innerHTML = "El total de flores grandes es " + computeStatsGrande;
+    computeStatsAsia = computeStatsPorcentaje(currentData, "continenteDeOrigen", "Asia");
+    contenedorEstadistica.innerHTML = "El total de flores grandes es " + computeStatsGrande + " y el " + computeStatsAsia + "% provienen de Asia";
   }
 }
 

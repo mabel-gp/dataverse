@@ -40,7 +40,7 @@ export const sortData = (data, sortOrder) =>{
       }else{
         return -1;
       }
-    }else{
+    }else if(sortOrder === "desc"){
       if(a.name < b.name){
         return 1;
       }else{
@@ -64,11 +64,12 @@ export const computeStats = (data, dataBy, tipo) =>{
 
 
 //Probando estadística para porcentaje
-export const computeStatsPrueba = (data, dataBy, tipo) =>{
-  const prueba = data.map((datos) => {
-    return datos.facts[dataBy] === tipo;
+export const computeStatsPorcentaje = (data, dataBy, tipo) => {
+  const datosDeContinentes = data.map((datos) => {
+    const continentes = datos.facts[dataBy].split(/[\s]+/);
+    return continentes.includes(tipo);
   })
-  const resultado = prueba.reduce((contador, elemento) => contador + elemento, 0);
+  const resultado = datosDeContinentes.reduce((contador, elemento) => contador + elemento, 0);
   const porcentaje = (resultado / data.length)*100;
-  return porcentaje;
+  return parseFloat(porcentaje.toFixed(1));
 }

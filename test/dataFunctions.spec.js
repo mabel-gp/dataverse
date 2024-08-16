@@ -1,4 +1,4 @@
-import { filterDataHabitat, filterDataTamaño, sortData, computeStats} from '../src/dataFunctions.js';
+import { filterDataHabitat, filterDataTamaño, sortData, computeStats, computeStatsPorcentaje} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
 
@@ -72,5 +72,20 @@ describe('computeStats', () => {
   it('debería mostrar el total de flores Pequeñas',() => {
     const estadisticaPequeña = computeStats(fakeData, "tamañoDeFlor", "Pequeña")
     expect(estadisticaPequeña).toBe(1);
+  });
+});
+
+describe('computeStatsPorcentaje', () => {
+  it('debería mostrar el porcentaje de Flores de Asia',() => {
+    const porcentajeAsia = computeStatsPorcentaje(fakeData, "continenteDeOrigen", "Asia")
+    expect(parseFloat(porcentajeAsia.toFixed(1))).toBe(33.3);
+  });
+  it('debería mostrar el porcentaje de Flores de África',() => {
+    const porcentajeAfrica = computeStatsPorcentaje(fakeData, "continenteDeOrigen", "África")
+    expect(parseFloat(porcentajeAfrica.toFixed(1))).toBe(33.3);
+  });
+  it('debería mostrar el porcentaje de Flores de América',() => {
+    const porcentajeAmerica = computeStatsPorcentaje(fakeData, "continenteDeOrigen", "América")
+    expect(parseFloat(porcentajeAmerica.toFixed(1))).toBe(33.3);
   });
 });

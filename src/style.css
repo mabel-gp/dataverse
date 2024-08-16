@@ -94,10 +94,17 @@ main div{
     font-family: "Alegreya Sans", sans-serif;
 }
 
-#estadistica{
+.contenedor-estadistica{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: #e9dfed;
-    padding-left: 50rem;
+    width: 100%;
+}
+
+#estadistica{
     font-size: 2rem;
+    background-color: transparent;
 }
 
 ul{
@@ -210,10 +217,17 @@ footer{
         font-family: "Alegreya Sans", sans-serif;
     }
 
-    #estadistica {
+    .contenedor-estadistica{
+        display:flex;
+        justify-content: center;
+        align-items: center;
         background-color: #e9dfed;
-        padding-left: 12.5em;
+        width: 100%;
+    }
+    
+    #estadistica{
         font-size: 1.2rem;
+        background-color: transparent;
     }
 
     .caracteristicas {
@@ -284,6 +298,19 @@ footer{
         font-family: "Aref Ruqaa Ink", serif;
         box-shadow: 0 0.4rem 0 0 #DBB4E3;
         color: #333333;
+    }
+
+    .contenedor-estadistica{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e9dfed;
+        width: 100%;   
+    }
+    
+    #estadistica{
+        font-size: 1rem;
+        background-color: transparent;
     }
 
     main div {
