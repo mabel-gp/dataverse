@@ -9,7 +9,7 @@ const arregloDeFlores = document.querySelector("#root");
 arregloDeFlores.appendChild(renderItems(data));
 
 
-//VARIABLES conectadas con dataFunctions para mostrar el total de flores por cada filtro
+//Variables para mostrar el total de flores por cada filtro
 const contenedorEstadistica = document.querySelector("#estadistica");
 
 const computeStatsAcuatica = computeStats(data, "tipoDeHabitat", "Acuática");
@@ -20,13 +20,14 @@ const computeStatsPequeña = computeStats(data, "tamañoDeFlor", "Pequeña");
 const computeStatsMediana = computeStats(data, "tamañoDeFlor", "Mediana");
 const computeStatsGrande = computeStats(data, "tamañoDeFlor", "Grande");
 
+//Variables para mostrar el porcentaje de flores por cada filtro
 let computeStatsAmerica = computeStatsPorcentaje(currentData, "continenteDeOrigen", "América");
 let computeStatsAfrica = computeStatsPorcentaje(currentData, "continenteDeOrigen", "África");
 let computeStatsAsia = computeStatsPorcentaje(currentData, "continenteDeOrigen", "Asia");
 
 
 
-//HÁBITAT
+//Función para tipo de Hábitat
 function selectDeHabitat(event){
   const opcionDeHabitat= event.target.value;
 
@@ -55,7 +56,7 @@ const contenedorHabitat = document.querySelector("#flor-habitat");
 contenedorHabitat.addEventListener("change", selectDeHabitat);
 
 
-//TAMAÑO
+//Función para Tamaño
 function selectDeTamaño(event){
   const opcionDeTamaño = event.target.value;
 
@@ -84,7 +85,7 @@ const contenedorTamaño = document.querySelector("#flor-tamaño");
 contenedorTamaño.addEventListener("change", selectDeTamaño);
 
 
-//ORDENAR
+//Función para Ordenar
 function selectDeOrdenar(event){
   const opcionDeOrden = event.target.value;
   const sortedData = sortData(currentData, opcionDeOrden);
@@ -96,7 +97,7 @@ const contenedorOrdenar = document.querySelector("#ordenar-flor");
 contenedorOrdenar.addEventListener("change", selectDeOrdenar);
 
 
-//BOTÓN
+//Función para el botón limpiar
 const dataOriginal = data;
 const botonRecargar = document.querySelector('[data-testid = "button-clear"]');
 botonRecargar.addEventListener("click", () => {

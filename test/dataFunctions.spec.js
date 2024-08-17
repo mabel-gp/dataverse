@@ -19,7 +19,6 @@ describe('filterDataHabitat()', () => {
 
 
 describe('filterDataTamaño', () => {
-
   it('debería devolver Grande', () => {
     const grande = filterDataTamaño(fakeData, "tamañoDeFlor", "Grande")
     expect(grande.length).toBe(1);
@@ -36,7 +35,6 @@ describe('filterDataTamaño', () => {
 
 
 describe('sortData', () => {
-
   it('debería devolver A-Z', () => {
     const ascendente = sortData(fakeData, "asc")
     expect(ascendente.length).toBe(3);

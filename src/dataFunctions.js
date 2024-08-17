@@ -63,7 +63,6 @@ export const computeStats = (data, dataBy, tipo) =>{
 } 
 
 
-//Probando estadística para porcentaje
 export const computeStatsPorcentaje = (data, dataBy, tipo) => {
   const datosDeContinentes = data.map((datos) => {
     const continentes = datos.facts[dataBy].split(/[\s]+/);
