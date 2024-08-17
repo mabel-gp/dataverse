@@ -20,9 +20,9 @@ Por eso hemos creado una página dinámica llamada Flores Dataverse, que permite
 
 En la siguiente imagen, podemos ver el prototipo que se diseñamos al iniciar el proyecto.
 
-![prototipo-desktop](src/assets/images/prototipo -desktop.png)
+![prototipo-desktop](src/assets/images/prototipo-desktop.png)
 
-![prototipo-mobile](src/assets/images/prototipo -mobile.png)
+![prototipo-mobile](src/assets/images/prototipo-mobile.png)
 
 ## 2. Funcionalidades
 
@@ -30,9 +30,9 @@ La página web contine 24 tarjetas y cada una de ellas, contiene información re
 
 ![imagen-tarjeta](src/assets/images/imagen-tarjetas.png)
 
-Además permite a la usuaria filtrar las flores de acuerdo al habitat (acuática, terreste y epífita) y el tamaño (pequeña, mediana y grande), y le permite ordenar alfabeticamente de manera ascendente y descendente.
+Además, permite a la usuaria filtrar las flores de acuerdo al hábitat (acuática, terreste y epífita) y el tamaño (pequeña, mediana y grande), y le permite ordenar alfabéticamente de manera ascendente y descendente.
 
-Además, la página está diseñada para calcular estadísticas del número de flores y el porcentaje de flores de acuerdo a su continente de origen. 
+También la página está diseñada para calcular estadísticas del número de flores y el porcentaje de flores de acuerdo a su continente de origen. 
 
 ![imagen-filtro](src/assets/images/imagen-filtro.png)
 
@@ -44,11 +44,11 @@ Además, la página está diseñada para calcular estadísticas del número de f
     
 2. ¿Cuáles son los objetivos de estas usuarias en relación con el producto?
 
-   Aprender y conocer más sobre distintas flores, de diversos habitats, tamaños y continentes.
+   Aprender y conocer más sobre distintas flores, de diversos hábitats, tamaños y continentes.
     
 3. ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 
-    Habitat, tamaño y continente de origen, porque si alguna usuria está interesada en cultivar alguna de esás flores, tiene la información adecuada para hacerlo.
+    Hábitat, tamaño y continente de origen, porque si alguna usuria está interesada en cultivar alguna de esás flores, tiene la información adecuada para hacerlo.
 
 4. ¿Cuándo utilizan o utilizarían el producto?
    
@@ -64,7 +64,7 @@ A continuación, relatamos lo trabajado en cada hito:
 2. Organizamos información.
 3. Definimos el tema de proyecto y construimos el prototipo para desktop y mobile.
 5. Preparamos el prompt en chatGPT.
-6. Ejecutamos pruebas para dataset.js
+6. Ejecutamos pruebas para dataset.js.
 7. Unimos los cambios de hito-1 con la rama main, después creamos una nueva rama llamada hito-2 y a partir de ella trabajamos las funcionalidades.
 
 ![promp](src/assets/images/promp.png)
@@ -84,13 +84,13 @@ A continuación, relatamos lo trabajado en cada hito:
 ![test-filtro](src/assets/images/test-filtro.jpg)
 
 3. Realizamos el método sort para ordenar la data de forma ascendente y descendente.
-4. Escibimos el test de la función ordenar en dataFunction.spec.js
+4. Escibimos el test de la función ordenar en dataFunction.spec.js.
 5. Completamos estilos para los filtros en CSS.
 6. Pasamos los test OAS para asegurarnos de buen funcionamiento de nuestrá página.
 
 ### Hito 4
 
-1. Desarrollamos una función llamada computeStats que permite calcular el número de flores de acuerdo al filtro que se esté aplicando (habitat y tamaño).
+1. Desarrollamos una función llamada computeStats que permite calcular el número de flores de acuerdo al filtro que se esté aplicando (hábitat y tamaño).
 2. Después desarrollamos una segunda función llamada compuStatsPorcentaje, que nos permite visualizar el procetaje de flores según su continente de origen.
 3. Escribimos el test de cada uno de las estadísticas.
 4. Finalmente ejecutamos test OAS y todas pasaron al 100%.
