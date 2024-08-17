@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Flores</title>
+    <link rel="icon" href="/assets/images/favicon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Style+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Style+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Aref+Ruqaa+Ink:wght@400;700&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Style+Script&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <header>
+      <img src="/assets/images/flor-header.png" alt="imagen-del-header">
+      <div><h1>Flores</h1></div>
+    </header>
+
+    <aside>
+      <label for="flor-habitat">Hábitat</label>
+      <select name="habitat" id="flor-habitat" data-testid="select-filter">
+        <option value="elegir-por-habitat">Elige una opción</option>
+        <option value="acuáticas">Acuáticas</option>
+        <option value="terrestres">Terrestres</option>
+        <option value="epífitas">Epífitas</option>
+      </select>
+
+      <label for="flor-tamaño">Tamaño</label>
+      <select name="tamaño" id="flor-tamaño">
+        <option value="elegir-por-tamaño">Elige una opción</option>
+        <option value="pequeñas">Pequeñas</option>
+        <option value="medianas">Medianas</option>
+        <option value="grandes">Grandes</option>
+      </select>
+
+      <label for="ordenar-flor">Orden</label>
+      <select name="name" id="ordenar-flor" data-testid="select-sort">
+        <option value="elegir-por-orden">Elige una opción</option>
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
+      </select>
+
+      <div>
+        <button data-testid="button-clear">Recargar</button>
+      </div>
+
+    </aside>
+
+    <main>
+      <div class="contenedor-estadistica">
+        <div id="estadistica"></div>
+      </div>
+      <div id="root" class="tarjetas-de-flores"></div>
+    </main>
+
+    <footer>
+      <p>Realizado por: Dora Huaire y Mabel Gutierrez</p>
+    </footer>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
