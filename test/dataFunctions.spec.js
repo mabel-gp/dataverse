@@ -1,4 +1,4 @@
-import { filterDataHabitat, filterDataTamaño, sortData} from '../src/dataFunctions.js';
+import { filterDataHabitat, filterDataTamaño, sortData, computeStats, computeStatsPorcentaje} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
 
@@ -19,7 +19,6 @@ describe('filterDataHabitat()', () => {
 
 
 describe('filterDataTamaño', () => {
-
   it('debería devolver Grande', () => {
     const grande = filterDataTamaño(fakeData, "tamañoDeFlor", "Grande")
     expect(grande.length).toBe(1);
@@ -36,7 +35,6 @@ describe('filterDataTamaño', () => {
 
 
 describe('sortData', () => {
-
   it('debería devolver A-Z', () => {
     const ascendente = sortData(fakeData, "asc")
     expect(ascendente.length).toBe(3);
@@ -44,5 +42,48 @@ describe('sortData', () => {
   it('debería devolver Z-A', () => {
     const descendente = sortData(fakeData, "des")
     expect(descendente.length).toBe(3);
+  });
+});
+
+
+describe('computeStats', () => {
+  it('debería mostrar el total de Acuáticas',() => {
+    const estadisticaAcuatica = computeStats(fakeData, "tipoDeHabitat", "Acuática")
+    expect(estadisticaAcuatica).toBe(1);
+  });
+  it('debería mostrar el total de Terrestres',() => {
+    const estadisticaTerrestre = computeStats(fakeData, "tipoDeHabitat", "Terrestre")
+    expect(estadisticaTerrestre).toBe(1);
+  });
+  it('debería mostrar el total de Epífitas',() => {
+    const estadisticaEpifita = computeStats(fakeData, "tipoDeHabitat", "Epífita")
+    expect(estadisticaEpifita).toBe(1);
+  });
+  it('debería mostrar el total de flores Grandes',() => {
+    const estadisticaGrande = computeStats(fakeData, "tamañoDeFlor", "Grande")
+    expect(estadisticaGrande).toBe(1);
+  });
+  it('debería mostrar el total de flores Medianas',() => {
+    const estadisticaMediana = computeStats(fakeData, "tamañoDeFlor", "Mediana")
+    expect(estadisticaMediana).toBe(1);
+  });
+  it('debería mostrar el total de flores Pequeñas',() => {
+    const estadisticaPequeña = computeStats(fakeData, "tamañoDeFlor", "Pequeña")
+    expect(estadisticaPequeña).toBe(1);
+  });
+});
+
+describe('computeStatsPorcentaje', () => {
+  it('debería mostrar el porcentaje de Flores de Asia',() => {
+    const porcentajeAsia = computeStatsPorcentaje(fakeData, "continenteDeOrigen", "Asia")
+    expect(parseFloat(porcentajeAsia.toFixed(1))).toBe(33.3);
+  });
+  it('debería mostrar el porcentaje de Flores de África',() => {
+    const porcentajeAfrica = computeStatsPorcentaje(fakeData, "continenteDeOrigen", "África")
+    expect(parseFloat(porcentajeAfrica.toFixed(1))).toBe(33.3);
+  });
+  it('debería mostrar el porcentaje de Flores de América',() => {
+    const porcentajeAmerica = computeStatsPorcentaje(fakeData, "continenteDeOrigen", "América")
+    expect(parseFloat(porcentajeAmerica.toFixed(1))).toBe(33.3);
   });
 });

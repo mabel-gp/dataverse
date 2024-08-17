@@ -23,7 +23,7 @@ export default [
     "facts": {
         "nombreCientifico": "Victoria amazonica",
         "cientificoDescubridor": "John Lindley",
-        "continenteDeOrigen": "Sudamérica",
+        "continenteDeOrigen": "América del Sur",
         "tipoDeHabitat": "Acuática",
         "tamañoDeFlor": "Grande"
     },
@@ -113,7 +113,7 @@ export default [
     "facts": {
         "nombreCientifico": "Eichhornia crassipes",
         "cientificoDescubridor": "Carl Friedrich Philipp von Martius",
-        "continenteDeOrigen": "Sudamérica",
+        "continenteDeOrigen": "América del Sur",
         "tipoDeHabitat": "Acuática",
         "tamañoDeFlor": "Mediana"
     },
